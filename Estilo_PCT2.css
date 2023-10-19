@@ -1,0 +1,332 @@
+header{
+	width: 100%;
+	max-height: 200px;
+	margin: 0px;
+	padding: 0px;
+	background: #ffe633;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+	.banner{
+		max-widht: 100%;
+		max-height: 200px;
+		margin: 0px auto;
+		padding: 0;
+		display: flex;
+	}
+
+body{
+	width: 90%;
+	height: auto;
+	margin: 20px;
+	padding-top: 220px;
+	font-family: Arial;
+	font-size: 18px;
+    background-color: white;
+}
+
+main{
+	width: 90%;
+	min-height: 500px;
+}
+
+footer{
+	width: 100%;
+	height: 70px;
+	background: #333;
+	padding: 1em auto;
+	display: flex;
+	color: white;
+	text-align: center;
+}
+			
+aside{
+	width: 20%;
+	height: auto;
+	min-height: 500px;
+	margin: 1.5em;
+	padding: 1em;
+	float: left;
+	line-height: 3em;
+	background: #ffe633;
+}
+	
+	aside ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		align-items: center;
+	}
+
+.navbar{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0 1.5em;
+	display: flex;
+	justify-content: center;
+	background: #ffe633;
+}
+
+	.navbar ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+		.navbar ul li{
+			display: inline-block;
+		}
+
+			.navbar ul li a{
+				display: block;
+				padding: 1rem 1rem;
+			}
+			
+				.navbar ul li a:hover{
+					background: white;
+				}
+
+h1 {
+	text-align: center;
+}
+
+h4{
+	text-align: right;
+}
+
+p{
+	padding-top: 2em;
+	line-height: 1.3;
+	display: block;
+}
+
+a{
+	color: #333;
+}
+
+input{
+  background-color: #fbfbfb; 
+  width: 100%; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ffe633; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ffe633; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+	width: 60%;   
+	height: 45px; 
+	color: white;
+	font-size: 1em;
+	padding-left: 5px;
+	padding-right: 5px;   
+	margin-bottom: 20px; 
+	margin-top: 10px;
+	background-color: #ffe633; 
+	border: 2px solid #333; 
+	border-radius: 10px;  
+    cursor: pointer;
+}
+
+.checkmark {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #ffffff;
+	border: 1px solid #333;
+}
+	
+	.checkmark input:checked ~ .checkmark {
+		background-color: #ffe633;
+	}
+
+	.checkmark .checkmark:after {
+  		background-color: #ffe633;
+	}
+
+button p{
+  color: #ffffff; 
+}
+
+
+span{
+  color: #ffe633; 
+}
+
+.marquee{
+	width: 65%;
+	height: auto;
+	font-size: 1em;
+}
+
+.video{
+	width: 60%;
+	height: auto;
+	min-height:  500px;
+  	position: relative;
+  	z-index: -1;
+}
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+.pagina{
+	width: 100%;
+	background-color: silver;
+	margin: 0;
+	padding: 0;
+}
+
+.contenido{
+	width: 65%;
+	min-height: 500px;
+	margin: 1.5em;
+	padding: 1em;
+	align-content: center;
+	float: left;
+}
+
+.grid{
+	display: grid;
+  	gap: 2px;
+  	grid-template-columns: auto auto auto;
+	padding: 2px;
+}
+
+.grid-item {
+  padding: 10px;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.imagen{
+	width: 12rem;
+	height: 12rem;
+}
+
+.imagen2{
+	width: 25rem;
+	height: 25rem;
+	float: left; 
+}
+
+.imgmap{
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+	.area area:hover{
+		background: white;
+  		opacity: 0.65;
+	}
+
+.horario{
+	width: 950px;
+	height: 350px;
+	border: solid #333;
+	color: #333;
+	font-size: 18;
+	border-spacing: 0;
+}
+
+	.horario thead th{
+		border: solid #333 1px;
+		background-color: silver;
+		align-content: center;
+	}
+
+	.horario tfoot th{
+		border: solid #333 1px;
+		background-color: #ffe633;
+		align-content: center;
+	}
+
+	.horario tbody th{
+		border: solid #333 1px;
+		background-color: #ffe633;
+		align-content: center;
+	}
+
+	.horario tbody td{
+		border: solid #333 1px;
+		background-color: white;
+	}
+
+.precios{
+	width: 950px;
+	height: 350px;
+	border: solid #333;
+	color: #333;
+	font-size: 18;
+	border-spacing: 0;
+}
+
+	.precios thead th{
+		border: solid #333 1px;
+		align-content: center;
+	}
+
+	.precios tfoot th{
+		border: solid #333 1px;
+		align-content: center;
+	}
+
+	.precios tbody th{
+		border: solid #333 1px;
+		align-content: center;
+	}
+
+	.precios tbody td{
+		border: solid #333 1px;
+	}
+
+
+.footer{
+		font-family: Arial;
+		color: white;
+		text-align: center;
+}
